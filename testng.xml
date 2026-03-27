@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYRE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Parallel Suite" parallel="tests" thread-count="2">
+<test name="ChomeTests">
+<parameter name="browser" value="chorome"/>
+<classes>
+<classes name="SauceDemoTest"/>
+</classes>
+</test>
+<test name="FifefoxTest">
+<parameter name="browser" value="fifefox"/>
+</classes>
+<classes name="SauceDemoTest"/>
+</classes>
+</test>
+</suite>
