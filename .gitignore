@@ -1,0 +1,22 @@
+# Compiled class files
+target/
+*.class
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temp files
+tmp/
+temp/
